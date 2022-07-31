@@ -1,0 +1,778 @@
+/* base ace attorney characters */
+Profile {
+    base: judge
+}
+
+Profile Athena {
+    long: Athena Cykes
+    short: Athena
+    icon: http://i.imgur.com/xSUgFGr.png
+    voice: female
+    prefix: athena
+}
+
+Athena Sprite {
+    name: Normal
+    still: https://i.imgur.com/7Qs2IzZ.gif
+    talk: https://i.imgur.com/lGH1pNB.gif
+    suffix: n
+}
+
+Athena Sprite {
+    name: Happy
+    still: https://i.imgur.com/BHOlKlg.gif
+    talk: https://i.imgur.com/OS8oTlZ.gif
+    suffix: h
+}
+
+Athena Sprite {
+    name: Happy 2
+    still: https://i.imgur.com/9SocXkX.gif
+    talk: https://i.imgur.com/eAA8pfi.gif
+    suffix: h2
+}
+
+Athena Sprite {
+    name: Desk Slam
+    still: https://i.imgur.com/BWFaZiM.gif
+    talk: https://i.imgur.com/2TdkNfi.gif
+    startup: https://i.imgur.com/Yk0P6DU.gif
+    suffix: s
+}
+
+Athena Sprite {
+    name: Point
+    still: https://i.imgur.com/0KatDMQ.gif
+    talk: https://i.imgur.com/GHmOtYG.gif
+    startup: https://i.imgur.com/MCypb2i.gif
+    suffix: p
+}
+
+Athena Sprite {
+    name: Annoyed
+    still: https://i.imgur.com/wNVRW2m.gif
+    talk: https://i.imgur.com/FZVTr6a.gif
+    suffix: ann
+}
+
+Athena Sprite {
+    name: Evidence
+    still: https://i.imgur.com/GqRxxTA.gif
+    talk: https://i.imgur.com/skmnL4E.gif
+    suffix: ev
+}
+
+Athena Sprite {
+    name: Confident
+    still: https://i.imgur.com/v5UIkoJ.gif
+    talk: https://i.imgur.com/H8y1iJ4.gif
+    suffix: cn
+}
+
+Athena Sprite {
+    name: Thinking 
+    still: https://i.imgur.com/9C0QvrH.gif
+    talk: https://i.imgur.com/nvCxuZx.gif
+    suffix: th
+}
+
+Athena Sprite {
+    name: Surprised
+    still: https://i.imgur.com/9E8CDe1.gif
+    startup: https://i.imgur.com/18xgWHS.gif
+    suffix: sp
+}
+
+Athena Sprite {
+    name: Cold
+    still: https://i.imgur.com/Rss7cMo.gif
+    talk: https://i.imgur.com/87rja6f.gif
+    suffix: cd
+}
+
+Athena Sprite {
+    name: Front Normal
+    still: https://i.imgur.com/2FaaEwo.gif
+    talk: https://i.imgur.com/dh9Sy24.gif
+    suffix: fn
+}
+
+Athena Sprite {
+    name: Front Concerned
+    still: https://i.imgur.com/TW1lJ4n.gif
+    talk: https://i.imgur.com/712Y22x.gif
+    suffix: fcc
+}
+
+Athena Sprite {
+    name: Front Mad
+    still: https://i.imgur.com/944jjXL.gif
+    talk: https://i.imgur.com/GdrKt9E.gif
+    suffix: fm
+}
+
+Athena Sprite {
+    name: Front Mad 2
+    still: https://i.imgur.com/K3DhcL1.gif
+    talk: https://i.imgur.com/VxZgXTn.gif
+    suffix: fm2
+}
+
+Athena Sprite {
+    name: Front Confident
+    still: https://i.imgur.com/Ahv2qlG.gif
+    talk: https://i.imgur.com/FMJeRqF.gif
+    suffix: fcon
+}
+
+Athena Sprite {
+    name: Front Confident 2
+    still: https://i.imgur.com/Mhyxm1f.gif
+    talk: https://i.imgur.com/xOxd4FK.gif
+    suffix: fcon2
+}
+
+Athena Sprite {
+    name: Front Thinking
+    still: https://i.imgur.com/MVQJWQs.gif
+    talk: https://i.imgur.com/9A6hukw.gif
+    suffix: fth
+}
+
+Athena Sprite {
+    name: Front Thinking 2
+    still: https://i.imgur.com/p9wimHu.gif
+    talk: https://i.imgur.com/cHvAfbz.gif
+    suffix: fth2
+}
+
+Athena Sprite {
+    name: Front Happy
+    still: https://i.imgur.com/xnVLIJa.gif
+    talk: https://i.imgur.com/mmtNJPY.gif
+    suffix: fh
+}
+
+Athena Sprite {
+    name: Front Happy 2
+    still: https://i.imgur.com/hS4XfR7.gif
+    talk: https://i.imgur.com/XJ1PT0y.gif
+    suffix: fh2
+}
+
+Athena Sprite {
+    name: Front Annoyed
+    still: https://i.imgur.com/zTAU59J.gif
+    talk: https://i.imgur.com/vGTntz1.gif
+    suffix: fann
+}
+
+Athena Sprite {
+    name: Front Annoyed 2
+    still: https://i.imgur.com/CvMXKr7.gif
+    talk: https://i.imgur.com/RP2Hicv.gif
+    suffix: fann2
+}
+
+Athena Sprite {
+    name: Front Annoyed 3
+    still: https://i.imgur.com/zt6AitR.gif
+    talk: https://i.imgur.com/3GdE807.gif
+    startup: https://i.imgur.com/r2V4eOV.gif
+    duration: 1100
+    suffix: fann3
+}
+
+Profile {
+    base: edgeworth
+}
+
+Profile {
+    hidden: true
+    base: gumshoe
+}
+
+Profile Bailiff {
+    long: Bailiff
+    short: Bailiff
+    icon: https://i.imgur.com/bXjUolL.png
+    voice: male
+    prefix: bailiff
+}
+
+Bailiff Sprite {
+    name: Normal
+    still: https://i.imgur.com/UMxeYOn.png
+    talk: https://i.imgur.com/Hb30ALP.gif
+    suffix: normal
+}
+
+Bailiff Sprite {
+    name: Angry
+    still: https://i.imgur.com/RRLVsx5.png
+    talk: https://i.imgur.com/ZCPUlGy.gif
+    suffix: angry
+}
+
+Bailiff sprite {
+    name: Fist
+    still: https://i.imgur.com/IWkG7uU.png
+    talk: https://i.imgur.com/4L4W3I9.gif
+    suffix: fist
+}
+
+Bailiff sprite {
+    name: Happy
+    still: https://i.imgur.com/oVsJBMK.gif
+    talk: https://i.imgur.com/w8JvjTS.gif
+    suffix: happy
+}
+
+/* custom characters in the story */
+Profile Skye {
+    long: Skye Macdonald
+    short: Skye
+    icon: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-headshot.png
+    voice: female
+    description: Age: ??
+: Gender: Female
+: Lorem ipsum dolor sit amet
+    prefix: skye
+}
+
+Skye Sprite {
+    name: Normal
+    still: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-normal(a).gif
+    talk: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-normal(b).gif
+    suffix: normal
+}
+
+Skye Sprite {
+    name: Content
+    still: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-content.gif
+    talk: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-content-talking.gif
+    suffix: content
+}
+
+Skye Sprite {
+    name: Not Looking
+    still: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-notlooking.gif
+    talk: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-notlooking-talking.gif
+    suffix: notlooking
+}
+
+Skye Sprite {
+    name: Staring
+    still: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-stare.gif
+    talk: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-stare-talk.gif
+    suffix: stare
+}
+
+Skye Sprite {
+    name: Stunned
+    still: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-stunned(a).gif
+    talk: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-stunned(b).gif
+    startup: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-stunned(c).gif
+    suffix: stun
+}
+
+Skye Sprite {
+    name: Thinking
+    still: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-thinking(a).gif
+    talk: https://f003.backblazeb2.com/file/reflector2/aa/icons/skye/skye-thinking(b).gif
+    suffix: think
+}
+
+Profile Alex {
+    long: Alex Zero
+    short: Alex
+    icon: https://f003.backblazeb2.com/file/reflector2/aa/icons/alex_zero.png
+    voice: none
+    description: Age: N/A
+: Gender: N/A
+: Lorem ipsum dolor sit amet
+    prefix: alex
+}
+
+Alex Sprite {
+    name: Normal
+    still: https://f003.backblazeb2.com/file/reflector2/aa/icons/alex_sprite.png
+    suffix: normal
+}
+
+Profile Matt {
+    long: Matthew Ayers
+    short: Matt
+    icon: https://i.imgur.com/VpVbm2a.png
+    voice: male
+    description: Age: ??
+: Gender: Male
+: Lorem ipsum dolor sit amet
+    prefix: matt
+}
+
+Matt Sprite {
+    name: Normal
+    still: https://i.imgur.com/r5B8I84.gif
+    talk: https://i.imgur.com/o6eZvXv.gif
+    suffix: normal
+}
+
+Matt Sprite {
+    name: Looking
+    still: https://i.imgur.com/pSO7TDh.gif
+    talk: https://i.imgur.com/T1HGTgc.gif
+    suffix: looking
+}
+
+Matt Sprite {
+    name: Sad
+    still: https://i.imgur.com/g3WpvzA.gif
+    talk: https://i.imgur.com/diuI0w9.gif
+    suffix: sad
+}
+
+Matt Sprite {
+    name: Angry
+    still: https://i.imgur.com/cI073Me.gif
+    talk: https://i.imgur.com/ovVPsnD.gif
+    suffix: angry
+}
+
+Matt Sprite {
+    name: Happy
+    still: https://i.imgur.com/ri2Q2Vy.gif
+    talk: https://i.imgur.com/BLpeVHl.gif
+    suffix: happy
+}
+
+Matt Sprite {
+    name: Happy 2
+    still: https://i.imgur.com/MXhOauH.gif
+    talk: https://i.imgur.com/LnZkkmJ.gif
+    suffix: happy2
+}
+
+Matt Sprite {
+    name: Standing
+    still: https://i.imgur.com/potRsqE.png
+    suffix: stand
+}
+
+Profile {
+    hidden: true
+    base: pearl
+    icon: https://i.imgur.com/E7cYKf8.png
+    description: Age: ??
+: Gender: Female
+: Counsel working at the Wright & Co Law Offices.
+}
+
+/* From https://imgur.com/a/OorlH */
+Profile Patrick {
+    long: Patrick Atkinson
+    short: Patrick
+    icon: https://i.imgur.com/cjkNA7L.png
+    hidden: true
+    voice: male
+    description: Age: 34
+: Gender: Male
+: Specialist in patent law and intellectual property cases for 5 years
+    prefix: patrick
+}
+
+Patrick Sprite {
+    name: Normal
+    still: https://i.imgur.com/WdGzHaw.gif
+    talk: https://i.imgur.com/Sc1fL3x.gif
+    suffix: normal
+}
+
+Patrick Sprite {
+    name: Reading
+    still: https://i.imgur.com/bVLoOHl.gif
+    talk: https://i.imgur.com/tbnYaao.gif
+    suffix: read
+}
+
+Patrick Sprite {
+    name: Arms Crossed
+    still: https://i.imgur.com/CprnjRv.gif
+    talk: https://i.imgur.com/u5Fj4iR.gif
+    suffix: cross
+}
+
+Patrick Sprite {
+    name: Angry
+    still: https://i.imgur.com/yOXAzaZ.gif
+    talk: https://i.imgur.com/ymj7CuJ.gif
+    suffix: angry
+}
+
+Patrick Sprite {
+    name: Show
+    still: https://i.imgur.com/BMZMC6C.gif
+    talk: https://i.imgur.com/jMQ0fga.gif
+    suffix: show
+}
+
+Patrick Sprite {
+    name: Finger Shake
+    still: https://i.imgur.com/gIkOn2Q.gif
+    talk: https://i.imgur.com/IhQZX3J.gif
+    suffix: finger
+}
+
+Patrick Sprite {
+    name: Desk Slam
+    still: https://i.imgur.com/c3R9768.gif
+    talk: https://i.imgur.com/jN5B9lu.gif
+    startup: https://i.imgur.com/r3xJdKa.gif
+    suffix: slam
+}
+
+Patrick Sprite {
+    name: Co-counsel
+    still: https://i.imgur.com/F9S9z0m.png
+    suffix: co
+}
+
+/* witnesses */
+Profile {
+    hidden: true
+    base: ema
+}
+
+Profile {
+    hidden: true
+    base: mikemeekins
+}
+
+Profile {
+    hidden: true
+    base: franziska
+}
+
+Profile {
+    long: Shi-Long Lang
+    short: Lang
+    icon: https://f003.backblazeb2.com/file/reflector2/aa/icons/shi_long.png
+    hidden: true
+    voice: male
+    description: Age: 27
+: Gender: Male
+: Elite Interpol agent.
+    prefix: shi
+}
+
+Profile Emica {
+    long: Emica Yokonoga
+    short: Yokonoga
+    icon: https://i.imgur.com/klnUYJ8.png
+    hidden: true
+    voice: female
+    description: Age: 27
+: Gender: Female
+: Neural mapping scientist working for the Japanese government.
+    prefix: yokonoga
+}
+
+Emica Sprite {
+    name: Normal
+    still: https://i.imgur.com/xh140So.gif
+    talk: https://i.imgur.com/Y3Wnx6T.gif
+    suffix: normal
+}
+
+Emica Sprite {
+    name: Arms Crossed
+    still: https://i.imgur.com/kHZjkDC.gif
+    talk: https://i.imgur.com/Yy1rAra.gif
+    suffix: cross
+}
+
+Emica Sprite {
+    name: Arms Crossed 2
+    still: https://i.imgur.com/85jCHfi.gif
+    talk: https://i.imgur.com/vRplLgc.gif
+    suffix: cross2
+}
+
+Emica Sprite {
+    name: Stern
+    still: https://i.imgur.com/iYBvfpR.gif
+    talk: https://i.imgur.com/kJ55NwW.gif
+    suffix: stern
+}
+
+Emica Sprite {
+    name: Unhappy
+    still: https://i.imgur.com/hqAt6XA.gif
+    talk: https://i.imgur.com/seNDQIq.gif
+    suffix: unhappy
+}
+
+Emica Sprite {
+    name: Stand
+    still: https://i.imgur.com/QJAmdki.png
+    suffix: stand
+}
+
+/* images from https://imgur.com/a/DYk6B */
+Profile PM {
+    long: Prime Minister
+    short: PM
+    icon: https://i.imgur.com/XAH5rr7.png
+    hidden: true
+    voice: male
+    description: Age: 51
+: Gender: Male
+: The Prime Minister of Japan.
+    prefix: pm
+}
+
+PM Sprite {
+    name: Normal
+    still: https://i.imgur.com/HHvlXl9.gif
+    talk: https://i.imgur.com/cdmTG9Z.gif
+    suffix: normal
+}
+
+PM Sprite {
+    name: Stern
+    still: https://i.imgur.com/wdli6wF.gif
+    talk: https://i.imgur.com/tgkoxU1.gif
+    suffix: stern
+}
+
+PM Sprite {
+    name: Grinning
+    still: https://i.imgur.com/BDAtOWd.gif
+    talk: https://i.imgur.com/iFsEwHI.gif
+    suffix: grin
+}
+
+PM Sprite {
+    name: Laughing
+    still: https://i.imgur.com/BDAtOWd.gif
+    talk: https://i.imgur.com/nbP9OwQ.gif
+    suffix: laugh
+}
+
+PM Sprite {
+    name: Laughing 2
+    still: https://i.imgur.com/hoU5Tzb.gif
+    talk: https://i.imgur.com/hoU5Tzb.gif
+    suffix: laugh2
+}
+
+PM Sprite {
+    Name: Thinking
+    still: https://i.imgur.com/iFhqN3f.gif
+    talk: https://i.imgur.com/Qf1YI8T.gif
+    suffix: think
+}
+
+PM Sprite {
+    Name: Surprised
+    still: https://i.imgur.com/uI8QcvD.gif
+    talk: https://i.imgur.com/QDsYPLl.gif
+    suffix: surprise
+}
+
+PM Sprite {
+    name: Stand
+    still: https://i.imgur.com/v9rMELC.png
+    suffix: stand
+}
+
+PM Sprite {
+    name: Co-counsel Normal
+    still: https://i.imgur.com/QYTHhjL.gif
+    talk: https://i.imgur.com/iyF7L4F.gif
+    suffix: co1
+}
+
+PM Sprite {
+    name: Co-counsel Stern
+    still: https://i.imgur.com/OINuEnM.gif
+    talk: https://i.imgur.com/DaeUseR.gif
+    suffix: co2
+}
+
+PM Sprite {
+    name: Co-counsel Far
+    still: https://i.imgur.com/IC2SAYB.png
+    suffix: cofar
+}
+
+Profile {
+    long: Akihiko Yoshirou
+    short: Gen. Yoshirou
+    hidden: true
+    voice: male
+    description: Age: 63
+: Gender: Male
+: General working at the Tokorozawa Army Base.
+    prefix: gay
+}
+
+/* Helios side */
+/* From https://imgur.com/a/UliV6 */
+Profile E2 {
+    long: E-21864
+    short: E-21864
+    icon: https://i.imgur.com/ECTNbsz.png
+    hidden: true
+    voice: none
+    description: Age: N/A
+: Gender: N/A
+: Android security officer, property of HELIOS.
+    prefix: e2
+}
+
+E2 Sprite {
+    name: Normal
+    still: https://i.imgur.com/We5xp4g.gif
+    talk: https://i.imgur.com/kbFAl5u.gif
+    suffix: normal
+}
+
+E2 Sprite {
+    name: Happy
+    still: https://i.imgur.com/8sHcidt.gif
+    talk: https://i.imgur.com/KP6MAm5.png
+    suffix: happy
+}
+
+E2 Sprite {
+    name: Stern
+    still: https://i.imgur.com/M6RCY09.gif
+    talk: https://i.imgur.com/9Wel4F4.gif
+    suffix: stern
+}
+
+E2 Sprite {
+    name: Stern 2
+    still: https://i.imgur.com/wdQfjDl.gif
+    talk: https://i.imgur.com/ZP1fKbq.gif
+    suffix: stern2
+}
+
+E2 Sprite {
+    name: Stand
+    still: https://i.imgur.com/OctRsiL.png
+    suffix: stand
+}
+
+/* From https://imgur.com/a/uC6Tm */
+Profile Alpha {
+    long: Alpha Black Zero
+    short: Alpha
+    icon: https://i.imgur.com/umfZ6i1.png
+    hidden: true
+    voice: none
+    description: Age: 41
+: Gender: Non-binary
+: Helios corporate attorney.
+    prefix: alpha
+}
+
+Alpha Sprite {
+    name: Normal
+    still: https://i.imgur.com/BHHm6Jy.gif
+    talk: https://i.imgur.com/aNZvDL1.gif
+    suffix: normal
+}
+
+Alpha Sprite {
+    name: Angry
+    still: https://i.imgur.com/39WbIW7.gif
+    talk: https://i.imgur.com/6dZpmOq.gif
+    suffix: angry
+}
+
+Alpha Sprite {
+    name: Sad
+    still: https://i.imgur.com/GXdnrnw.gif
+    talk: https://i.imgur.com/uEfQxHu.gif
+    suffix: sad
+}
+
+Alpha Sprite {
+    name: Thinking
+    still: https://i.imgur.com/vaT4iSZ.gif
+    talk: https://i.imgur.com/hJJjG36.gif
+    suffix: think
+}
+
+Alpha Sprite {
+    name: Stand
+    still: https://i.imgur.com/AMiuX5C.gif
+    suffix: stand
+}
+
+Profile {
+    long: Hiroshi Kōki
+    short: Hiroshi
+    hidden: true
+    voice: male
+    description: Age: 35
+: Gender: Male
+: Head of Advanced Neural Interfacing at HELIOS.
+    prefix: hiroshi
+}
+
+/* evidence */
+Evidence alex_tape {
+    name: Alex's CCTV Excerpt
+    base: tape
+    metadata: A video extracted from Alex's systems showing the Prime Minister's aide.
+}
+
+/* music */
+Music lobby {
+    base: pw2
+}
+
+Music court {
+    base: aai208
+}
+
+Music logic_and_tricks {
+    base: aai105
+}
+
+Music prelude {
+    name: Prelude [Turnabout Resolve]
+    path: https://f003.backblazeb2.com/file/reflector2/aa/music/prelude_turnabout_resolve.mp3
+}
+
+Music questioning {
+    name: Questioning ~ Moderato [Turnabout Resolve]
+    path: https://f003.backblazeb2.com/file/reflector2/aa/music/questioning_moderato_turnabout_resolve.mp3
+}
+
+Music questioning2 {
+    name: Questioning ~ Moderato 2001
+    path: https://f003.backblazeb2.com/file/reflector2/aa/music/questioning_moderato_2001.mp3
+}
+
+Music courtroom_revolutionnaire {
+    name: PWAADD Remix: Athena Cykes ~ Courtroom Revolutionnaire
+    path: https://f003.backblazeb2.com/file/reflector2/aa/music/pwaadd_courtroom_revolutionnaire.mp3
+}
+
+Music testimony1 {
+    name: Testimony MEGAMIX (2001 to 2013) - Ace Attorney Series
+    path: https://f003.backblazeb2.com/file/reflector2/aa/music/testimony_megamix.mp3
+}
+
+/* Sounds */
+Sound gallery {
+    base: gallery speaking
+}
+
+Sound gavel {
+    base: gavel
+}

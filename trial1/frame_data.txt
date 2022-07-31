@@ -1,0 +1,283 @@
+to_black
+color, lime:
+18 October 1999, 8:30AM
+District Courthouse
+Defendant Lobby No. 5
+
+place, pw lobby
+music, lobby
+athena.fh:
+(Mr Wright said I could take this one all by myself...)
+
+matt.normal:
+Okay... come on, it's lawyer time. Ah, there you are!
+
+athena.fann:
+(I'm... I'm FINE!)
+
+matt.sad:
+Pleasure to see you again!
+
+athena.fcc:
+They did... that... didn't they...
+
+matt.happy:
+Yep, you bet! Don't worry, I'm technically ex-military. I've been up longer!
+
+alex.normal:
+Sleep deprivation tactics ain't gonna work on me! I'm so fucking bored, though.
+
+matt.normal:
+Alex, please tell me your "interview" went well.
+
+alex.normal:
+Well... enough.
+
+skye.normal:
+Which means it's terrible...
+
+matt.normal:
+As in like, you kept yourself cool and collected right?
+
+athena.fn:
+I mean... Everyone cracks in interrogation. That's the point.
+
+athena.fn:
+Don't worry, I've kind of been there...
+
+matt.looking:
+Hey, worst I got was a gut punch. Thank god I'm still in this body armor suit. Long story.
+
+alex.normal:
+Yes. I made the prosecutor crack!
+
+matt.angry:
+Alex, your arrogance will be the death of us all and I mean that.
+
+athena.fcc:
+Gumshoe isn't here yet with the video analysis machine...
+
+athena.fcc:
+I'm worried. We may have to stall for time.
+
+matt.looking:
+Otherwise we're looking at... how does Japan pull executions again?
+
+athena.fcc:
+Hanging.
+
+matt.looking:
+Oh.
+
+athena.fann:
+I kinda miss Europe...
+
+matt.normal:
+We're not out of this until we're all out of this.
+
+skye.normal:
+So our defence hinges on the video being proved fake. But, we need that machine...
+
+matt.normal:
+When the prosecution was showing me the footage...
+
+matt.looking:
+...I noticed these weird little outlines. Around our figures.
+
+skye.normal:
+And that's what the machine will pick up on. But we need the machine.
+
+skye.notlooking:
+And so for the machine we need more time.
+
+athena.fcon:
+So I'm going to be honest here with you three. I will stall for time.
+
+matt.normal:
+Right... you got this.
+
+athena.fn:
+Cross exmainations that last forever, that sort of thing.
+
+alex.normal:
+Sounds good.
+
+matt.looking:
+Say, did you ever track down any of the women on that train who went after the PM's aide?
+
+matt.looking:
+The ones who handbagged him a new one.
+
+athena.fn:
+They're the witnesses against you.
+
+matt.looking:
+Oookay.
+
+athena.fn:
+The police offered them a deal.
+
+matt.looking:
+That answers that. This is gonna be an uphill battle...
+
+athena.fann2:
+That's how it normally goes.
+
+matt.normal:
+No stranger to it, huh?
+
+music, prelude
+alex.normal:
+And guys, if this all goes south, don't worry, I do have a Plan B.
+
+matt.normal:
+If it involves making us look any more like the bad guys than we already are, save it.
+
+alex.normal:
+Better than rotting in jail!
+
+athena.fann:
+Please...
+
+alex.normal:
+I am filled with unbridled rage but I'm choosing to not unleash it for the time being.
+
+athena.fh:
+Hey that's how I feel, right now.
+
+matt.looking:
+I think we all are... and that might be exactly what the prosecution is counting on.
+
+athena.fcon:
+Alright, let's get going.
+
+to_black
+color, lime:
+18 October 1999, 8:30AM
+District Courthouse
+Courtroom No. 3
+
+gallery_murmur
+
+matt.normal:
+Whew, nice place here.
+
+gavel
+
+place, pw judge
+music, court
+j.n:
+Court is now in session for the trial of Skye Macdonald, Alex Zero, and... Matthew Ayers.
+
+j.n:
+Are the defense and prosecution ready?
+
+set_court
+me.n:
+The prosecution is ready, your honour.
+
+athena.n:
+The defence is ready, your honour.
+
+gavel
+
+place, pw judge
+j.n:
+Very well, I hereby call this court to order. Prosecution, state your case.
+
+place, pw bench
+me.n:
+It's a simple matter here. Decisive evidence and witnesses show that the defendants
+
+me.n:
+commited the crime of assault, and the crime of kidnapping.
+
+me.n:
+With your permission, I will show the evidence and witnesses to the court.
+
+me.n:
+If it is alright, I would like to call the first witness, Detective Ema Skye, to the stand, your honour.
+
+place, pw judge
+j.n:
+Very well. Proceed.
+
+place, pw bench
+music, logic_and_tricks
+es.n:
+Firstly, we were able to use CCTV to show that the cup
+
+es.n:
+was thrown at the aide with force, with intent to injure.
+
+es.n:
+Secondly, using DNA and fingerprint analysis, and residue in the bag and cup...
+
+es.n:
+we could determine that the cup was purchacsed by Matt, stored in...
+
+es.n:
+Ms Macdonald's bag, and then thrown by Alex Zero.
+
+es.n:
+We could also prove that the cup was thrown with enough force to seriously injure the aide.
+
+es.n:
+Furthermore, the aide was shown to be minding his own business on the CCTV.
+
+es.n:
+It's difficult to see what reasonable excuse to hurt someone like this would be...
+
+color, lime:
+ANALYSIS RESULTS ADDED TO COURT RECORD.
+
+place, pw judge
+j.n:
+The defense may begin cross examination.
+
+ceStart
+ceStatement, skip
+es.n:
+Firstly, we were able to use CCTV to show that the cup...
+
+ceStatement, skip
+es.n:
+was thrown at the aide with force, with intent to injure.
+
+ceStatement, skip
+es.n:
+Secondly, using DNA and fingerprint analysis, and residue in the bag and cup...
+
+ceStatement, skip
+es.n:
+we could determine that the cup was purchacsed by Matt, stored in...
+
+ceStatement, skip
+es.n:
+Ms Macdonald's bag, and then thrown by Alex Zero.
+
+ceStatement, skip
+es.n:
+We could also prove that the cup was thrown with enough force to seriously injure the aide.
+
+ceStatement, skip
+contra, alex_tape, CE1End
+es.n:
+Furthermore, the aide was shown to be minding his own business on the CCTV.
+
+ceStatement, skip
+es.n:
+It's difficult to see what reasonable excuse to hurt someone like this would be...
+
+assist
+matt.normal:
+Come on! There has to be a contradiction somewhere...
+
+fail:
+penalty_athena
+
+ceEnd
+
+anc, CE1End
+athena.n:
+Foobar

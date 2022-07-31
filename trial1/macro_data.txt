@@ -1,0 +1,36 @@
+to_black {
+    music
+    place
+}
+
+gallery_murmur {
+    place, pw court loud
+    sound, gallery
+    wait, 3000
+}
+
+gavel {
+    place, gavel 1
+    sound, gavel
+    wait, 1000
+}
+
+set_court {
+    place, pw bench
+    set_sprite, athena, n
+    cPos, left
+    set_sprite, me, n
+    cPos, right
+}
+
+penalty_athena {
+    
+}
+
+CONFIG {
+    startup: before
+    autoescape: Ms. Mrs. Mr. Dr. Prof.
+    autoescape: Jan. Feb. Mar. Apr. Jun. Jul. Aug. Sep. Oct. Nov. Dec.
+    autoescape: Mon. Tue. Tues. Wed. Thur. Thurs. Fri. Sat. Sun.
+    autoescape: a.m. p.m. B.C. A.D. no. lb. oz.
+}
